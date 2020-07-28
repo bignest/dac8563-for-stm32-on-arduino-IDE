@@ -1,11 +1,5 @@
-# DAC8562
+# DAC8563
 A simple Arduino library for 16bit SPI controlled DAC
-
-I am currently using a breakout board look like this:
-<br>
-<img src="images/tianxing.png" width="200">
-
-Ideally it should work with all the DAC8562 chip.
-
-## Credits
-This library use @machinesalem 's TLV5618 DAC library as reference.
+and all codes is modified from https://github.com/k164v/DAC8562
+The original code cannot be compiled to stm32, and there were some minor bugs for dac8563.
+Thanks for k164v
